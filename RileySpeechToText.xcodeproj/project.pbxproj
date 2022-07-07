@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		635E563F28778B0D00246F6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E563E28778B0D00246F6A /* AppDelegate.swift */; };
+		635E564128778B0D00246F6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E564028778B0D00246F6A /* SceneDelegate.swift */; };
+		635E564328778B0D00246F6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E564228778B0D00246F6A /* ViewController.swift */; };
+		635E564628778B0D00246F6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635E564428778B0D00246F6A /* Main.storyboard */; };
+		635E564828778B0E00246F6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635E564728778B0E00246F6A /* Assets.xcassets */; };
+		635E564B28778B0E00246F6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635E564928778B0E00246F6A /* LaunchScreen.storyboard */; };
+		635E565628778B0E00246F6A /* RileySpeechToTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E565528778B0E00246F6A /* RileySpeechToTextTests.swift */; };
+		635E566028778B0E00246F6A /* RileySpeechToTextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E565F28778B0E00246F6A /* RileySpeechToTextUITests.swift */; };
+		635E566228778B0E00246F6A /* RileySpeechToTextUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E566128778B0E00246F6A /* RileySpeechToTextUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		635E565228778B0E00246F6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 635E563328778B0C00246F6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 635E563A28778B0C00246F6A;
+			remoteInfo = RileySpeechToText;
+		};
+		635E565C28778B0E00246F6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 635E563328778B0C00246F6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 635E563A28778B0C00246F6A;
+			remoteInfo = RileySpeechToText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		635E563B28778B0D00246F6A /* RileySpeechToText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RileySpeechToText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		635E563E28778B0D00246F6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		635E564028778B0D00246F6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		635E564228778B0D00246F6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		635E564528778B0D00246F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		635E564728778B0E00246F6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		635E564A28778B0E00246F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		635E564C28778B0E00246F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635E565128778B0E00246F6A /* RileySpeechToTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RileySpeechToTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		635E565528778B0E00246F6A /* RileySpeechToTextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RileySpeechToTextTests.swift; sourceTree = "<group>"; };
+		635E565B28778B0E00246F6A /* RileySpeechToTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RileySpeechToTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		635E565F28778B0E00246F6A /* RileySpeechToTextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RileySpeechToTextUITests.swift; sourceTree = "<group>"; };
+		635E566128778B0E00246F6A /* RileySpeechToTextUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RileySpeechToTextUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		635E563828778B0C00246F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635E564E28778B0E00246F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635E565828778B0E00246F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		635E563228778B0C00246F6A = {
+			isa = PBXGroup;
+			children = (
+				635E563D28778B0D00246F6A /* RileySpeechToText */,
+				635E565428778B0E00246F6A /* RileySpeechToTextTests */,
+				635E565E28778B0E00246F6A /* RileySpeechToTextUITests */,
+				635E563C28778B0D00246F6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		635E563C28778B0D00246F6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				635E563B28778B0D00246F6A /* RileySpeechToText.app */,
+				635E565128778B0E00246F6A /* RileySpeechToTextTests.xctest */,
+				635E565B28778B0E00246F6A /* RileySpeechToTextUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		635E563D28778B0D00246F6A /* RileySpeechToText */ = {
+			isa = PBXGroup;
+			children = (
+				635E563E28778B0D00246F6A /* AppDelegate.swift */,
+				635E564028778B0D00246F6A /* SceneDelegate.swift */,
+				635E564228778B0D00246F6A /* ViewController.swift */,
+				635E564428778B0D00246F6A /* Main.storyboard */,
+				635E564728778B0E00246F6A /* Assets.xcassets */,
+				635E564928778B0E00246F6A /* LaunchScreen.storyboard */,
+				635E564C28778B0E00246F6A /* Info.plist */,
+			);
+			path = RileySpeechToText;
+			sourceTree = "<group>";
+		};
+		635E565428778B0E00246F6A /* RileySpeechToTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				635E565528778B0E00246F6A /* RileySpeechToTextTests.swift */,
+			);
+			path = RileySpeechToTextTests;
+			sourceTree = "<group>";
+		};
+		635E565E28778B0E00246F6A /* RileySpeechToTextUITests */ = {
+			isa = PBXGroup;
+			children = (
+				635E565F28778B0E00246F6A /* RileySpeechToTextUITests.swift */,
+				635E566128778B0E00246F6A /* RileySpeechToTextUITestsLaunchTests.swift */,
+			);
+			path = RileySpeechToTextUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		635E563A28778B0C00246F6A /* RileySpeechToText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635E566528778B0E00246F6A /* Build configuration list for PBXNativeTarget "RileySpeechToText" */;
+			buildPhases = (
+				635E563728778B0C00246F6A /* Sources */,
+				635E563828778B0C00246F6A /* Frameworks */,
+				635E563928778B0C00246F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RileySpeechToText;
+			productName = RileySpeechToText;
+			productReference = 635E563B28778B0D00246F6A /* RileySpeechToText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		635E565028778B0E00246F6A /* RileySpeechToTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635E566828778B0E00246F6A /* Build configuration list for PBXNativeTarget "RileySpeechToTextTests" */;
+			buildPhases = (
+				635E564D28778B0E00246F6A /* Sources */,
+				635E564E28778B0E00246F6A /* Frameworks */,
+				635E564F28778B0E00246F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				635E565328778B0E00246F6A /* PBXTargetDependency */,
+			);
+			name = RileySpeechToTextTests;
+			productName = RileySpeechToTextTests;
+			productReference = 635E565128778B0E00246F6A /* RileySpeechToTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		635E565A28778B0E00246F6A /* RileySpeechToTextUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635E566B28778B0E00246F6A /* Build configuration list for PBXNativeTarget "RileySpeechToTextUITests" */;
+			buildPhases = (
+				635E565728778B0E00246F6A /* Sources */,
+				635E565828778B0E00246F6A /* Frameworks */,
+				635E565928778B0E00246F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				635E565D28778B0E00246F6A /* PBXTargetDependency */,
+			);
+			name = RileySpeechToTextUITests;
+			productName = RileySpeechToTextUITests;
+			productReference = 635E565B28778B0E00246F6A /* RileySpeechToTextUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		635E563328778B0C00246F6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					635E563A28778B0C00246F6A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					635E565028778B0E00246F6A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 635E563A28778B0C00246F6A;
+					};
+					635E565A28778B0E00246F6A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 635E563A28778B0C00246F6A;
+					};
+				};
+			};
+			buildConfigurationList = 635E563628778B0C00246F6A /* Build configuration list for PBXProject "RileySpeechToText" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 635E563228778B0C00246F6A;
+			productRefGroup = 635E563C28778B0D00246F6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				635E563A28778B0C00246F6A /* RileySpeechToText */,
+				635E565028778B0E00246F6A /* RileySpeechToTextTests */,
+				635E565A28778B0E00246F6A /* RileySpeechToTextUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		635E563928778B0C00246F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635E564B28778B0E00246F6A /* LaunchScreen.storyboard in Resources */,
+				635E564828778B0E00246F6A /* Assets.xcassets in Resources */,
+				635E564628778B0D00246F6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635E564F28778B0E00246F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635E565928778B0E00246F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		635E563728778B0C00246F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635E564328778B0D00246F6A /* ViewController.swift in Sources */,
+				635E563F28778B0D00246F6A /* AppDelegate.swift in Sources */,
+				635E564128778B0D00246F6A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635E564D28778B0E00246F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635E565628778B0E00246F6A /* RileySpeechToTextTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635E565728778B0E00246F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635E566228778B0E00246F6A /* RileySpeechToTextUITestsLaunchTests.swift in Sources */,
+				635E566028778B0E00246F6A /* RileySpeechToTextUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		635E565328778B0E00246F6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 635E563A28778B0C00246F6A /* RileySpeechToText */;
+			targetProxy = 635E565228778B0E00246F6A /* PBXContainerItemProxy */;
+		};
+		635E565D28778B0E00246F6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 635E563A28778B0C00246F6A /* RileySpeechToText */;
+			targetProxy = 635E565C28778B0E00246F6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		635E564428778B0D00246F6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				635E564528778B0D00246F6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		635E564928778B0E00246F6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				635E564A28778B0E00246F6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		635E566328778B0E00246F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		635E566428778B0E00246F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		635E566628778B0E00246F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BU28QED3L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RileySpeechToText/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burgersonbrioche.RileySpeechToText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		635E566728778B0E00246F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BU28QED3L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RileySpeechToText/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burgersonbrioche.RileySpeechToText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		635E566928778B0E00246F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BU28QED3L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burgersonbrioche.RileySpeechToTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RileySpeechToText.app/RileySpeechToText";
+			};
+			name = Debug;
+		};
+		635E566A28778B0E00246F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BU28QED3L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burgersonbrioche.RileySpeechToTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RileySpeechToText.app/RileySpeechToText";
+			};
+			name = Release;
+		};
+		635E566C28778B0E00246F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BU28QED3L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burgersonbrioche.RileySpeechToTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RileySpeechToText;
+			};
+			name = Debug;
+		};
+		635E566D28778B0E00246F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BU28QED3L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burgersonbrioche.RileySpeechToTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RileySpeechToText;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		635E563628778B0C00246F6A /* Build configuration list for PBXProject "RileySpeechToText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635E566328778B0E00246F6A /* Debug */,
+				635E566428778B0E00246F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		635E566528778B0E00246F6A /* Build configuration list for PBXNativeTarget "RileySpeechToText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635E566628778B0E00246F6A /* Debug */,
+				635E566728778B0E00246F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		635E566828778B0E00246F6A /* Build configuration list for PBXNativeTarget "RileySpeechToTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635E566928778B0E00246F6A /* Debug */,
+				635E566A28778B0E00246F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		635E566B28778B0E00246F6A /* Build configuration list for PBXNativeTarget "RileySpeechToTextUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635E566C28778B0E00246F6A /* Debug */,
+				635E566D28778B0E00246F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 635E563328778B0C00246F6A /* Project object */;
+}
