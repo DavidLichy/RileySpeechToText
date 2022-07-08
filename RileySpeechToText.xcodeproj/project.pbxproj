@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		635E563F28778B0D00246F6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E563E28778B0D00246F6A /* AppDelegate.swift */; };
 		635E564128778B0D00246F6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E564028778B0D00246F6A /* SceneDelegate.swift */; };
-		635E564328778B0D00246F6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E564228778B0D00246F6A /* ViewController.swift */; };
+		635E564328778B0D00246F6A /* TranscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E564228778B0D00246F6A /* TranscriptionViewController.swift */; };
 		635E564628778B0D00246F6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635E564428778B0D00246F6A /* Main.storyboard */; };
 		635E564828778B0E00246F6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635E564728778B0E00246F6A /* Assets.xcassets */; };
 		635E564B28778B0E00246F6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635E564928778B0E00246F6A /* LaunchScreen.storyboard */; };
 		635E565628778B0E00246F6A /* RileySpeechToTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E565528778B0E00246F6A /* RileySpeechToTextTests.swift */; };
 		635E566028778B0E00246F6A /* RileySpeechToTextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E565F28778B0E00246F6A /* RileySpeechToTextUITests.swift */; };
 		635E566228778B0E00246F6A /* RileySpeechToTextUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E566128778B0E00246F6A /* RileySpeechToTextUITestsLaunchTests.swift */; };
+		635E567228778E1000246F6A /* TranscriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E567128778E1000246F6A /* TranscriptionViewModel.swift */; };
+		635E567728778E4200246F6A /* TranscriptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E567628778E4200246F6A /* TranscriptionService.swift */; };
+		635E567A2877B89600246F6A /* TranscriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E56792877B89600246F6A /* TranscriptionCell.swift */; };
+		68727F61F560E1662C0BF883 /* Pods_RileySpeechToTextTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821AAB3C00715C928D24B2F3 /* Pods_RileySpeechToTextTests.framework */; };
+		9DBC4ED3751EA78D2C361C4E /* Pods_RileySpeechToText_RileySpeechToTextUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74564181434875D5C9FF93E /* Pods_RileySpeechToText_RileySpeechToTextUITests.framework */; };
+		EB7A6D810358B74215915D54 /* Pods_RileySpeechToText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C094C908DF57075BE61ED8D /* Pods_RileySpeechToText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C094C908DF57075BE61ED8D /* Pods_RileySpeechToText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RileySpeechToText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		417FE5CBCAD72D17DF5B408B /* Pods-RileySpeechToText-RileySpeechToTextUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RileySpeechToText-RileySpeechToTextUITests.release.xcconfig"; path = "Target Support Files/Pods-RileySpeechToText-RileySpeechToTextUITests/Pods-RileySpeechToText-RileySpeechToTextUITests.release.xcconfig"; sourceTree = "<group>"; };
 		635E563B28778B0D00246F6A /* RileySpeechToText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RileySpeechToText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		635E563E28778B0D00246F6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		635E564028778B0D00246F6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		635E564228778B0D00246F6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		635E564228778B0D00246F6A /* TranscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptionViewController.swift; sourceTree = "<group>"; };
 		635E564528778B0D00246F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		635E564728778B0E00246F6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		635E564A28778B0E00246F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,16 @@
 		635E565B28778B0E00246F6A /* RileySpeechToTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RileySpeechToTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		635E565F28778B0E00246F6A /* RileySpeechToTextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RileySpeechToTextUITests.swift; sourceTree = "<group>"; };
 		635E566128778B0E00246F6A /* RileySpeechToTextUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RileySpeechToTextUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		635E567128778E1000246F6A /* TranscriptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptionViewModel.swift; sourceTree = "<group>"; };
+		635E567628778E4200246F6A /* TranscriptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptionService.swift; sourceTree = "<group>"; };
+		635E56792877B89600246F6A /* TranscriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptionCell.swift; sourceTree = "<group>"; };
+		821AAB3C00715C928D24B2F3 /* Pods_RileySpeechToTextTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RileySpeechToTextTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A011B1B4BF834555163E87F5 /* Pods-RileySpeechToTextTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RileySpeechToTextTests.release.xcconfig"; path = "Target Support Files/Pods-RileySpeechToTextTests/Pods-RileySpeechToTextTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF0C3BDDAC9535A875B21FDD /* Pods-RileySpeechToText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RileySpeechToText.release.xcconfig"; path = "Target Support Files/Pods-RileySpeechToText/Pods-RileySpeechToText.release.xcconfig"; sourceTree = "<group>"; };
+		C964A72A62FE4B9F4FC959A8 /* Pods-RileySpeechToText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RileySpeechToText.debug.xcconfig"; path = "Target Support Files/Pods-RileySpeechToText/Pods-RileySpeechToText.debug.xcconfig"; sourceTree = "<group>"; };
+		CB9911F53D7D84CCCFC2D8CD /* Pods-RileySpeechToTextTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RileySpeechToTextTests.debug.xcconfig"; path = "Target Support Files/Pods-RileySpeechToTextTests/Pods-RileySpeechToTextTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E74564181434875D5C9FF93E /* Pods_RileySpeechToText_RileySpeechToTextUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RileySpeechToText_RileySpeechToTextUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0A00D9B1E55481D15EF7879 /* Pods-RileySpeechToText-RileySpeechToTextUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RileySpeechToText-RileySpeechToTextUITests.debug.xcconfig"; path = "Target Support Files/Pods-RileySpeechToText-RileySpeechToTextUITests/Pods-RileySpeechToText-RileySpeechToTextUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB7A6D810358B74215915D54 /* Pods_RileySpeechToText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68727F61F560E1662C0BF883 /* Pods_RileySpeechToTextTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DBC4ED3751EA78D2C361C4E /* Pods_RileySpeechToText_RileySpeechToTextUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				635E565428778B0E00246F6A /* RileySpeechToTextTests */,
 				635E565E28778B0E00246F6A /* RileySpeechToTextUITests */,
 				635E563C28778B0D00246F6A /* Products */,
+				687B180CFA74BD4F4BBFCA17 /* Pods */,
+				B2C9B5E796538349BF69EFA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +122,10 @@
 		635E563D28778B0D00246F6A /* RileySpeechToText */ = {
 			isa = PBXGroup;
 			children = (
+				635E567528778E2D00246F6A /* Services */,
+				635E567B2877BA4900246F6A /* Scenes */,
 				635E563E28778B0D00246F6A /* AppDelegate.swift */,
 				635E564028778B0D00246F6A /* SceneDelegate.swift */,
-				635E564228778B0D00246F6A /* ViewController.swift */,
 				635E564428778B0D00246F6A /* Main.storyboard */,
 				635E564728778B0E00246F6A /* Assets.xcassets */,
 				635E564928778B0E00246F6A /* LaunchScreen.storyboard */,
@@ -127,6 +151,79 @@
 			path = RileySpeechToTextUITests;
 			sourceTree = "<group>";
 		};
+		635E567328778E1500246F6A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				635E564228778B0D00246F6A /* TranscriptionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		635E567428778E2100246F6A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				635E567128778E1000246F6A /* TranscriptionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		635E567528778E2D00246F6A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				635E567628778E4200246F6A /* TranscriptionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		635E56782877B7CD00246F6A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				635E56792877B89600246F6A /* TranscriptionCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		635E567B2877BA4900246F6A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				635E567C2877BA5000246F6A /* Transcription */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		635E567C2877BA5000246F6A /* Transcription */ = {
+			isa = PBXGroup;
+			children = (
+				635E567328778E1500246F6A /* ViewControllers */,
+				635E567428778E2100246F6A /* ViewModels */,
+				635E56782877B7CD00246F6A /* Cells */,
+			);
+			path = Transcription;
+			sourceTree = "<group>";
+		};
+		687B180CFA74BD4F4BBFCA17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C964A72A62FE4B9F4FC959A8 /* Pods-RileySpeechToText.debug.xcconfig */,
+				AF0C3BDDAC9535A875B21FDD /* Pods-RileySpeechToText.release.xcconfig */,
+				F0A00D9B1E55481D15EF7879 /* Pods-RileySpeechToText-RileySpeechToTextUITests.debug.xcconfig */,
+				417FE5CBCAD72D17DF5B408B /* Pods-RileySpeechToText-RileySpeechToTextUITests.release.xcconfig */,
+				CB9911F53D7D84CCCFC2D8CD /* Pods-RileySpeechToTextTests.debug.xcconfig */,
+				A011B1B4BF834555163E87F5 /* Pods-RileySpeechToTextTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B2C9B5E796538349BF69EFA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C094C908DF57075BE61ED8D /* Pods_RileySpeechToText.framework */,
+				E74564181434875D5C9FF93E /* Pods_RileySpeechToText_RileySpeechToTextUITests.framework */,
+				821AAB3C00715C928D24B2F3 /* Pods_RileySpeechToTextTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 635E566528778B0E00246F6A /* Build configuration list for PBXNativeTarget "RileySpeechToText" */;
 			buildPhases = (
+				F86E826F440DB43A686E3C94 /* [CP] Check Pods Manifest.lock */,
 				635E563728778B0C00246F6A /* Sources */,
 				635E563828778B0C00246F6A /* Frameworks */,
 				635E563928778B0C00246F6A /* Resources */,
+				F51539E641BB65D84F01D07F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +250,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 635E566828778B0E00246F6A /* Build configuration list for PBXNativeTarget "RileySpeechToTextTests" */;
 			buildPhases = (
+				3E7BD93A00B790440D0887F1 /* [CP] Check Pods Manifest.lock */,
 				635E564D28778B0E00246F6A /* Sources */,
 				635E564E28778B0E00246F6A /* Frameworks */,
 				635E564F28778B0E00246F6A /* Resources */,
@@ -169,9 +269,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 635E566B28778B0E00246F6A /* Build configuration list for PBXNativeTarget "RileySpeechToTextUITests" */;
 			buildPhases = (
+				B70BA5B22F39E546461CF162 /* [CP] Check Pods Manifest.lock */,
 				635E565728778B0E00246F6A /* Sources */,
 				635E565828778B0E00246F6A /* Frameworks */,
 				635E565928778B0E00246F6A /* Resources */,
+				6E2FA01C794E8D31754766CF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,13 +355,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E7BD93A00B790440D0887F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RileySpeechToTextTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E2FA01C794E8D31754766CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RileySpeechToText-RileySpeechToTextUITests/Pods-RileySpeechToText-RileySpeechToTextUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RileySpeechToText-RileySpeechToTextUITests/Pods-RileySpeechToText-RileySpeechToTextUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RileySpeechToText-RileySpeechToTextUITests/Pods-RileySpeechToText-RileySpeechToTextUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B70BA5B22F39E546461CF162 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RileySpeechToText-RileySpeechToTextUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F51539E641BB65D84F01D07F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RileySpeechToText/Pods-RileySpeechToText-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RileySpeechToText/Pods-RileySpeechToText-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RileySpeechToText/Pods-RileySpeechToText-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F86E826F440DB43A686E3C94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RileySpeechToText-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		635E563728778B0C00246F6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				635E564328778B0D00246F6A /* ViewController.swift in Sources */,
+				635E567728778E4200246F6A /* TranscriptionService.swift in Sources */,
+				635E564328778B0D00246F6A /* TranscriptionViewController.swift in Sources */,
+				635E567A2877B89600246F6A /* TranscriptionCell.swift in Sources */,
 				635E563F28778B0D00246F6A /* AppDelegate.swift in Sources */,
+				635E567228778E1000246F6A /* TranscriptionViewModel.swift in Sources */,
 				635E564128778B0D00246F6A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,12 +640,13 @@
 		};
 		635E566628778B0E00246F6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C964A72A62FE4B9F4FC959A8 /* Pods-RileySpeechToText.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7BU28QED3L;
+				DEVELOPMENT_TEAM = V29YNYM242;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RileySpeechToText/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -460,12 +669,13 @@
 		};
 		635E566728778B0E00246F6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0C3BDDAC9535A875B21FDD /* Pods-RileySpeechToText.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7BU28QED3L;
+				DEVELOPMENT_TEAM = V29YNYM242;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RileySpeechToText/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -488,6 +698,7 @@
 		};
 		635E566928778B0E00246F6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB9911F53D7D84CCCFC2D8CD /* Pods-RileySpeechToTextTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +719,7 @@
 		};
 		635E566A28778B0E00246F6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A011B1B4BF834555163E87F5 /* Pods-RileySpeechToTextTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +740,7 @@
 		};
 		635E566C28778B0E00246F6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0A00D9B1E55481D15EF7879 /* Pods-RileySpeechToText-RileySpeechToTextUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +759,7 @@
 		};
 		635E566D28778B0E00246F6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 417FE5CBCAD72D17DF5B408B /* Pods-RileySpeechToText-RileySpeechToTextUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

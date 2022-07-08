@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1D6C47C7-3B29-484A-9A68-4385EF1266B0"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "776E4387-DC14-4AEF-AC41-099719631D98"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RileySpeechToText/ViewControllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "configure(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2782B814-31E1-499F-806B-907B096516C2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RileySpeechToText/Services/SpeechToTextService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "transcribe()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A738DDC4-A7BB-4F79-A74F-FEA4966BCC36"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RileySpeechToText/Services/SpeechToTextService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "transcribe()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A738DDC4-A7BB-4F79-A74F-FEA4966BCC36 - 215aa33c9f333e5b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in RileySpeechToText.SpeechToTextService.transcribe() -&gt; ()"
+                  moduleName = "RileySpeechToText"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidlichy/dev/RileySpeechToText/RileySpeechToText/Services/SpeechToTextService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "A738DDC4-A7BB-4F79-A74F-FEA4966BCC36 - 215aa33c9f333e5b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in RileySpeechToText.SpeechToTextService.transcribe() -&gt; ()"
+                  moduleName = "RileySpeechToText"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidlichy/dev/RileySpeechToText/RileySpeechToText/Services/SpeechToTextService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "188">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37212102-63D4-46B2-81F2-7FFA300B42BB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RileySpeechToText/Services/SpeechToTextService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "transcribe()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C916F267-D0F2-40B2-9886-8822AFCC3755"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RileySpeechToText/Services/SpeechToTextService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "transcribe()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C916F267-D0F2-40B2-9886-8822AFCC3755 - 215aa33c9f333c2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in RileySpeechToText.SpeechToTextService.transcribe() -&gt; ()"
+                  moduleName = "RileySpeechToText"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidlichy/dev/RileySpeechToText/RileySpeechToText/Services/SpeechToTextService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "1116">
+               </Location>
+               <Location
+                  uuid = "C916F267-D0F2-40B2-9886-8822AFCC3755 - 2af3d1f6b0f42bab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #2 (Swift.Optional&lt;__C.SFSpeechRecognitionResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in implicit closure #1 (RileySpeechToText.SpeechToTextService) -&gt; (Swift.Optional&lt;__C.SFSpeechRecognitionResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 () -&gt; () in RileySpeechToText.SpeechToTextService.transcribe() -&gt; ()"
+                  moduleName = "RileySpeechToText"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidlichy/dev/RileySpeechToText/RileySpeechToText/Services/SpeechToTextService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "41E2B9F7-5115-4006-BC12-898C51086784"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RileySpeechToText/Services/SpeechToTextService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
+            landmarkName = "recognitionHandler(result:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB36803B-294E-4746-8D98-26A98D8ADFDA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RileySpeechToText/Services/SpeechToTextService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
+            landmarkName = "recognitionHandler(result:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
